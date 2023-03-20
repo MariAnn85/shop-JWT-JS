@@ -13,7 +13,7 @@ app.options("*", cors());
 app.use(bodyParser.json());
 app.use(morgan("tiny"));
 
-app.use(errorHandler);
+
 
 //Routes
 const categoriesRoutes = require("./routes/categories");
